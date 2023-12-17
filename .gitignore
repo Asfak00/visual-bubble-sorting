@@ -1,2 +1,1 @@
-# hide js file
-RewriteCond %{REQUEST_URI} !^/js/
+*.js
