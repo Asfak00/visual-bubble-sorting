@@ -51,6 +51,15 @@ main {
   gap: 3rem;
 }
 
+#doneImage {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 90%;
+  height: 90%;
+  display: none;
+}
+
 #parentDiv {
   width: 100%;
   display: flex;

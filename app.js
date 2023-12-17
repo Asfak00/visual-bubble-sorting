@@ -1,12 +1,17 @@
 const parentDiv = document.getElementById("parentDiv");
 const startBtn = document.getElementById("startBtn");
+const doneImage = document.getElementById("doneImage");
 
 let i = 0;
-let array = [50, 30, 40, 45, 4, 12, 6, 43, 11, 26, 53];
+let array = [50, 30, 40, 45, 4, 12, 6, 43, 11, 26, 9];
 
 // this function will be call when click start button
 startBtn.addEventListener("click", async () => {
   await bubbleSort(array);
+  doneImage.style.display = "block";
+  setTimeout(() => {
+    doneImage.style.display = "none";
+  }, 1500);
 });
 
 // this function will be return promise
