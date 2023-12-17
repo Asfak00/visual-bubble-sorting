@@ -1,3 +1,0 @@
-# hide js file from the git repo
-echo "js/*.js" >> .gitignore
-
